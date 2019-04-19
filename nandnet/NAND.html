@@ -3,11 +3,20 @@
 <title>NANDNET</title>
 <body bgcolor="Green">
 
-<form action="/MyMemories.php" method="get">
-<font color="White">What is your name?</font>
-<input type="text" name="MyUser" value="">
-<input type="submit" value="Submit">
-</form>
+<button onclick="inputName()">What is your name...?</button>
+<font color="white"><p id="nameGet"></p></font>
+
+<script>
+function inputName() {
+var person = prompt("Please enter your name", "");
+if (person != null) {
+document.getElementById("nameGet").innerHTML =
+"Why, hello there " + person + "...!";
+}
+}
+</script>
+
+<input></input>
 
 </body>
 </html>
