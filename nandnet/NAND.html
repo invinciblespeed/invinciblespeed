@@ -12,11 +12,12 @@ var person = prompt("Please enter your name", "");
 if (person != null) {
 document.getElementById("nameGet").innerHTML =
 "Why, hello there " + person + "...!";
+document.getElementsByClassName("askMe").style.display="";
 }
 }
 </script>
 
-<input></input>
+<input type="text" class="askMe" style="display: none;"></input>
 
 </body>
 </html>
