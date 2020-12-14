@@ -1,0 +1,24 @@
+#navPane > span{
+	margin-left: 1em;
+}
+
+#navPane, #contentPane{
+	float: left;
+}
+
+#contentPane{
+	margin-left: 0.5em;
+}
+
+#imgPane{
+	float: right;
+}
+
+div{
+	border: solid #F0F 1px;
+	padding: 0.5em;
+}
+
+h2{
+	font-size: larger;
+}
