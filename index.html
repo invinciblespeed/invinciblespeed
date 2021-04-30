@@ -3,12 +3,11 @@
 <head>
 <title>- = Become OP 1.6 = -</title>
 <style>
-#rating{
+.rating{
 	color: #FF0;
 	font-family: consolas, monospace;
-	text-shadow: 0px 0px 32px #808000;
+	text-shadow: 0px 0px 8px #808000;
 	font-weight: bold;
-	font-size: 64px;
 }
 #titlecard{
 	color: #FFF;
@@ -20,7 +19,7 @@ h2{
 	color: #FFF;
 	font-family: consolas, monospace;
 	text-align: center;
-	font-size: 18px;
+	font-size: 23px;
 }
 p{
 	color: #FFF;
@@ -34,6 +33,10 @@ ul,li{
 #navPane{
 	font-family: monospace;
 	color: #FFF;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 100;
 }
 a:link{
   color: #00F;
@@ -45,41 +48,101 @@ a:visited{
   background-color: transparent;
   text-decoration: none;
 }
+.gridContainer{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	color: #FFF;
+	font-family: consolas, monospace;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+	position: absolute;
+	top: 100vh;
+	left: 0;
+	box-sizing: border-box;
+	align-items: center;
+	justify-items: center;
+	width: 100vw;
+	height: 100vh;
+	max-width: 100%;
+}
+.gradient{
+	/* background: linear-gradient(rgb(0,0,0) 80%, rgb(0,0,255)),#000000; */
+	background: linear-gradient(to top,rgba(0,0,0,0), rgba(0,0,0,1) 100%),#000;
+	position: absolute;
+	top: 200vh;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+	align-items: center;
+	justify-items: center;
+	display: grid;
+	animation: mymove 9s infinite;
+	text-shadow: 0px 4px 2px #000;
+	z-index: -1;
+}
+@keyframes mymove{
+	50% {background: linear-gradient(to top,rgba(0,0,0,0), rgba(0,0,0,1) 100%),#800080;}
+}
+.gridContainer>div{
+	margin: 15px;
+}
+html{
+	overflow-x: hidden;
+}
+
 </style>
 </head>
 <body bgcolor="black">
 	<b>
 <div id="navPane"></div>
-<h1><center><div id="titlecard"><ul style="list-style-type:none;"><li>____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____</li><li>/&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;________/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\_/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\________&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\</li><li>[&nbsp;/____/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;B&nbsp;E&nbsp;C&nbsp;O&nbsp;M&nbsp;E&nbsp;&nbsp;&nbsp;O&nbsp;P&nbsp;&nbsp;&nbsp;1&nbsp;.&nbsp;6&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\____\&nbsp;]</li><li>{&nbsp;/[&nbsp;&nbsp;-&nbsp;=&nbsp;T&nbsp;a&nbsp;l&nbsp;e&nbsp;&nbsp;&nbsp;o&nbsp;f&nbsp;&nbsp;&nbsp;(&nbsp;Y&nbsp;o&nbsp;u&nbsp;r&nbsp;)&nbsp;&nbsp;&nbsp;D&nbsp;e&nbsp;s&nbsp;p&nbsp;a&nbsp;i&nbsp;r&nbsp;=&nbsp;-&nbsp;&nbsp;]\&nbsp;}</li><li>{&nbsp;\_\&nbsp;/_______/___/&nbsp;\____/&nbsp;&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;&nbsp;\____/&nbsp;\___\_______\&nbsp;/_/&nbsp;}</li><li>{&nbsp;/\\\_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_///\&nbsp;}</li><li>[&nbsp;&nbsp;\\____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;--&nbsp;--|&nbsp;<0>&nbsp;|--&nbsp;--&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____//&nbsp;&nbsp;]</li><li>[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\___/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</li><li>\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</li></ul></div></center></h1>
-	<br>
-		<h2><a href="https://invinciblespeed.github.io/download">v1.6.2 UPDATE OUT NOW! CLICK TO GET DOWNLOADING!</a></h2>
-	<br/>
-	<h2>
-	FOR THE DAY OF UPRISING, FORTH TOWARDS OUR ENDS BEGINNING.
-	<br>
-	UNSEALING THE CAPSULE WILL MARK THE AGE OF MAN.
-	<br>
-	AGAINST THE WRATH OF THE ORB AND THE SCORN OF THE VOID, ONLY ONE WILL PREVAIL.
-	<br>
-	THE WIELDER OF POWER, THE CASTOR OF MIGHT.
-	<br>
-	TO BREAK THE CAPSULE IS TO SAVE THIS WORLD ABOVE ANOTHER.
-</h2>
-<p style="position: absolute; right: 15px; bottom: 50px; text-align: right;">
-	Become Overpowered 1.6: Tale of (Your) Despair, available now!
-	<br>
-	A 200KB batch text adventure, yes, in 2020!
-</p>
-<p style="position: absolute; left: 15px; bottom: 50px; text-align: left;">
-	"Become OP is a ridiculous, zany, and sometimes infuriating
-	<br>
-	experience. Like dark souls but good, and also nothing like
-	<br>
-	dark souls." - A playtester
-</p></b>
-<br>
-<h1><center><br><div id="rating">RATED 9/10</div></font></br></center></h1>
+<div style="display: grid; align-items: center; justify-items: center; height: 100vh; text-align: center; width: 100vw; max-width: 100%; position: absolute; top: 0; left: 0;">
+	<div>
+		<h1><center><div id="titlecard"><ul style="list-style-type:none;"><li>____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____</li><li>/&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;________/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\_/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\________&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\</li><li>[&nbsp;/____/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;B&nbsp;E&nbsp;C&nbsp;O&nbsp;M&nbsp;E&nbsp;&nbsp;&nbsp;O&nbsp;P&nbsp;&nbsp;&nbsp;1&nbsp;.&nbsp;6&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\____\&nbsp;]</li><li>{&nbsp;/[&nbsp;&nbsp;-&nbsp;=&nbsp;T&nbsp;a&nbsp;l&nbsp;e&nbsp;&nbsp;&nbsp;o&nbsp;f&nbsp;&nbsp;&nbsp;(&nbsp;Y&nbsp;o&nbsp;u&nbsp;r&nbsp;)&nbsp;&nbsp;&nbsp;D&nbsp;e&nbsp;s&nbsp;p&nbsp;a&nbsp;i&nbsp;r&nbsp;=&nbsp;-&nbsp;&nbsp;]\&nbsp;}</li><li>{&nbsp;\_\&nbsp;/_______/___/&nbsp;\____/&nbsp;&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;&nbsp;\____/&nbsp;\___\_______\&nbsp;/_/&nbsp;}</li><li>{&nbsp;/\\\_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_///\&nbsp;}</li><li>[&nbsp;&nbsp;\\____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;--&nbsp;--|&nbsp;<0>&nbsp;|--&nbsp;--&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____//&nbsp;&nbsp;]</li><li>[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\___/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</li><li>\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</li></ul></div></center></h1>
+		<br><br>
+		<h2>
+		FOR THE DAY OF UPRISING, FORTH TOWARDS OUR ENDS BEGINNING.
+		<br>
+		UNSEALING THE CAPSULE WILL MARK THE AGE OF MAN.
+		<br>
+		AGAINST THE WRATH OF THE ORB AND THE SCORN OF THE VOID, ONLY ONE WILL PREVAIL.
+		<br>
+		THE WIELDER OF POWER, THE CASTOR OF MIGHT.
+		<br>
+		TO BREAK THE CAPSULE IS TO SAVE THIS WORLD ABOVE ANOTHER.
+		<br>
+		<br>
+		<br>
+		<h2 style="font-size: 32px;">Become Overpowered 1.6, a 200KB batch text adventure. (Yes, in 2021.)</style>
+		</h2>
+	</div>
+</div>
+</b>
+<div class="gridContainer">
+	<div>
+		"Very funny and well written. Every time you think you might be close to the end, the locations you can explore practically double and you find yourself with more to do and in more dangerous situations than ever before. <span class="rating">9/10</span>" - A local banana
+	</div>
+	<div style="grid-column-start: 2; grid-column-end: 4;">
+		<img src="./pix/img1.png" alt="Img1">
+	</div>
+	<div style="text-align: right;">
+		"Become OP is a ridiculous, zany, and sometimes infuriating experience. Like dark souls but good, and also nothing like dark souls. <span class="rating">9/10</span>" - Anonymous Playtester
+	</div>
+	<div>"A witty adventure game you won't find anywhere else. <span class="rating">8/10</span>" - Playtester mikah</div>
+	<div style="grid-column-start: 2; grid-column-end: 4;">
+		<img src="./pix/img2.png" alt="Img2">
+	</div>
+	<div style="text-align: right;">"If you judge the quality of a game by play time then practically every NES, Atari, and arcade game would be a ten out of ten. This game? <span class="rating">10/10</span>" - Anonymous Playtester</div>
+	<div>"A text adventure game with a surprising amount of variety. There are puzzles, minigames, plenty of combat encounters, and a shockingly potent story. <span class="rating">9/10</span>" - Anonymous Playtester</div>
+	<div style="grid-column-start: 2; grid-column-end: 4;">
+		<img src="./pix/img3.png" alt="Img3">
+	</div>
+	<div style="text-align: right;"><h2><span class="rating">RATED 9/10 OVERALL</span></h2></div>
+</div>
+<div class="gradient">
+	<h2 style="font-size: 32px;"><a href="https://invinciblespeed.github.io/download">Download Become OP 1.6 for Windows 2000 and up.</a></h2>
+</div>
 </body>
 </html>
 <script src="portals.js"></script>
-<!--No, the game is NOT programmed as poorly as this webpage!-->
